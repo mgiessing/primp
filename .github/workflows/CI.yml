@@ -39,7 +39,7 @@ jobs:
               CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_LINKER: aarch64-linux-gnu-g++
           - runner: ubuntu-latest
             target: ppc64le
-            apt_packages: crossbuild-essential-powerpc
+            apt_packages: crossbuild-essential-ppc64el
             custom_env:
               CC: powerpc64le-linux-gnu-gcc
               CXX: powerpc64le-linux-gnu-g++
